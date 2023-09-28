@@ -23,17 +23,16 @@ class _BottomNavBarState extends State<BottomNavBar> {
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(40.h),
-            color: Color(0xFFF15F79),
+            color: Color(0xFFFF646D),
           ),
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 15.w, vertical: 3.h),
             child: GNav(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
-              backgroundColor: Color(0xFFF15F79),
+              backgroundColor: Color(0xFFFF646D),
               color: Colors.white,
               activeColor: Colors.white,
-              tabBackgroundColor:
-                  Color.fromARGB(255, 157, 67, 84), //Colors.blueGrey,
+              tabBackgroundColor: Color(0xFF82253B), //Colors.blueGrey,
               haptic: true, // haptic feedback
               tabBorderRadius: 40.r,
               curve: Curves.easeInOutCubic, // tab animation curves
@@ -41,11 +40,10 @@ class _BottomNavBarState extends State<BottomNavBar> {
               padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 3.h),
 
               tabs: [
-                GButton(
-                  icon: Icons.home,
-                  text: "Home",
-                ),
-                GButton(icon: Icons.person, text: "Profile"),
+                GButton(icon: Icons.home),
+                GButton(icon: Icons.bar_chart),
+                GButton(icon: Icons.receipt),
+                GButton(icon: Icons.person),
               ],
               selectedIndex: _selectedIndex,
               onTabChange: (index) {
