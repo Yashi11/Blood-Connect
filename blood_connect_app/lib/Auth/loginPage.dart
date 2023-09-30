@@ -1,11 +1,10 @@
+import 'package:blood_connect/Auth/fireAuth.dart';
+import 'package:blood_connect/Auth/registrationOptions.dart';
+import 'package:blood_connect/Screens/mainScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:blood_bridge/Auth/fireAuth.dart';
-import 'package:blood_bridge/Auth/registrationOptions.dart';
-import 'package:blood_bridge/Screens/mainScreen.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import '../Widgets/customForm.dart';
 
 class LoginPage extends StatefulWidget {
@@ -74,9 +73,12 @@ class _LoginPageState extends State<LoginPage> {
                       SizedBox(
                         height: 30.h,
                       ),
-                      Image.asset(
-                        'assets/login.png',
-                        fit: BoxFit.cover,
+                      Container(
+                        height: 150.h, // Set the desired height here
+                        child: Image.asset(
+                          'assets/login.png',
+                          fit: BoxFit.cover,
+                        ),
                       ),
                       SizedBox(
                         height: 25.h,

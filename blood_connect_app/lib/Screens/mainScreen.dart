@@ -1,17 +1,17 @@
 // ignore_for_file: file_names, prefer_const_constructors, prefer_final_fields, prefer_const_literals_to_create_immutables, constant_identifier_names
 
-import 'package:blood_bridge/Screens/ScreenWidgets/OtherDocument.dart';
-import 'package:blood_bridge/Screens/ScreenWidgets/OtherStats.dart';
-import 'package:blood_bridge/Screens/ScreenWidgets/Stats.dart';
-import 'package:blood_bridge/Screens/ScreenWidgets/UploadDocument.dart';
-import 'package:blood_bridge/Screens/ScreenWidgets/bankHome.dart';
-import 'package:blood_bridge/Screens/ScreenWidgets/bankProfile.dart';
+import 'package:blood_connect/Screens/ScreenWidgets/OtherDocument.dart';
+import 'package:blood_connect/Screens/ScreenWidgets/OtherStats.dart';
+import 'package:blood_connect/Screens/ScreenWidgets/Stats.dart';
+import 'package:blood_connect/Screens/ScreenWidgets/UploadDocument.dart';
+import 'package:blood_connect/Screens/ScreenWidgets/bankHome.dart';
+import 'package:blood_connect/Screens/ScreenWidgets/bankProfile.dart';
+import 'package:blood_connect/Screens/ScreenWidgets/userHome.dart';
+import 'package:blood_connect/Screens/ScreenWidgets/userProfile.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:blood_bridge/Screens/ScreenWidgets/userHome.dart';
-import 'package:blood_bridge/Screens/ScreenWidgets/userProfile.dart';
 
 import '../Widgets/BottomNavBar.dart';
 import 'ScreenWidgets/hospitalHome.dart';

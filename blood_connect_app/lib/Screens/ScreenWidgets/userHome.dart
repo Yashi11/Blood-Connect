@@ -2,7 +2,7 @@
 
 import 'dart:ffi';
 
-import 'package:blood_bridge/Widgets/DropDown.dart';
+import 'package:blood_connect/Widgets/DropDown.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

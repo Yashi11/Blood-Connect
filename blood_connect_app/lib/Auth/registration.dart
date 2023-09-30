@@ -1,6 +1,6 @@
 import 'dart:ffi';
 
-import 'package:blood_bridge/Screens/mainScreen.dart';
+import 'package:blood_connect/Screens/mainScreen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 

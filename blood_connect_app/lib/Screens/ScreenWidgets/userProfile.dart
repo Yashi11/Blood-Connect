@@ -203,7 +203,7 @@ class _MenuPageState extends State<UserProfile> {
                     height: 10.h,
                   ),
                   Text(
-                    "Thank you for being a part of our Blood Bridge",
+                    "Thank you for being a part of our Blood Connect",
                     style: TextStyle(fontSize: 13.sp),
                   ),
                   _isSigningOut

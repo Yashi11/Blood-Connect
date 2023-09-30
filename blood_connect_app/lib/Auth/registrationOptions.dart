@@ -1,10 +1,7 @@
-import 'package:blood_bridge/Auth/loginPage.dart';
+import 'package:blood_connect/Auth/loginPage.dart';
+import 'package:blood_connect/Auth/registration.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:blood_bridge/Auth/Registration.dart';
-import 'package:blood_bridge/Screens/mainScreen.dart';
 
 class RegistrationOptions extends StatefulWidget {
   @override
